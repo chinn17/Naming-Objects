@@ -70,8 +70,4 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         startGame()
     }
-    
-    
-    
-    
 }
