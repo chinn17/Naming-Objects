@@ -355,9 +355,4 @@ class MainController: UIViewController, UIImagePickerControllerDelegate, UINavig
             }
         }
     }
-    
-    
 }
-
-
-
