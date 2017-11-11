@@ -38,15 +38,11 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.view.backgroundColor = UIColor(displayP3Red: 245/255, green: 245/255, blue: 245/255, alpha: 1)
         
-        
         self.view.addSubview(self.imageView)
-        
         imageView.image = #imageLiteral(resourceName: "mainImage")
         imageView.contentMode = .scaleAspectFit
-        
         
         imageView.widthAnchor.constraint(equalTo: self.view.widthAnchor).isActive = true
         imageView.heightAnchor.constraint(equalTo: self.view.heightAnchor).isActive = true
@@ -54,8 +50,6 @@ class ViewController: UIViewController, UINavigationControllerDelegate {
         imageView.bottomAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.bottomAnchor).isActive = true
         imageView.leftAnchor.constraint(equalTo: self.view.leftAnchor).isActive = true
         imageView.rightAnchor.constraint(equalTo: self.view.rightAnchor).isActive = true
-        
-        
     }
     
     
